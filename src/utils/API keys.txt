@@ -1,0 +1,2 @@
+{"weather":"356cccdf12ebaa2284df2cb860294407",
+"mapbox":"pk.eyJ1IjoicGR0aGVkZXYiLCJhIjoiY2tocnlzNHl0MG5zbjJxcGI1b3o0aWg3MyJ9.4DUSUipsvi-zwlkzc7K1iA"}
