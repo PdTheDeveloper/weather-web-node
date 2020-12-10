@@ -31,7 +31,7 @@ h1 {
     margin-bottom: 16px;
 }
 
-a {
+a , header {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
