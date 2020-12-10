@@ -6,7 +6,7 @@ searchForm.addEventListener('submit' , (e) =>{
     e.preventDefault()
     messageParaghraph.textContent = 'Loading...'
     weatherParagraph.textContent = ''
-    fetch('http://localhost:3000/weather?address=' + searchForm.children[0].value).then((response) =>{
+    fetch('/weather?address=' + searchForm.children[0].value).then((response) =>{
         response.json().then((data) =>{
             if(data.error) {
                 messageParaghraph.textContent = 'Error: ' + data.error
