@@ -50,7 +50,8 @@ app.get('/weather' , (req , res) =>{
                 title : 'Weather app' ,
                 author : 'PD' ,
                 location : location,
-                weatherData : 'The current temperature is ' + data.current.temp
+                weatherData : 'The current temperature is ' + data.current.temp + ' , and \
+                the weather is generally described as ' + data.current.weather[0].description
             })
         })
     })
